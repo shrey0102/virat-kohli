@@ -3,10 +3,18 @@ body {
     padding-top: 500px;
     text-align: center
 }
-#menu{
+
+#menu {
     z-index: 10;
-    color:red;
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    list-style: none;
+    font-size: 25px;
+    cursor: pointer;
 }
+
 #first_section {
     position: absolute;
     bottom: 0;
@@ -32,7 +40,7 @@ h1 {
 #name {
     font-size: 40px;
     font-weight: 500;
-    font-family: cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 h2 {
@@ -62,4 +70,17 @@ p {
     color: blue;
     line-height: 1.5;
     max-width: 1500px;
+}
+
+.links {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links:hover {
+    font-size: 30px;
+    text-decoration: underline;
+    color: brown;
+
 }
