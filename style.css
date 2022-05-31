@@ -57,7 +57,7 @@ h2 {
     margin-top: 300px;
 }
 
-#line {
+.line {
     height: 5px;
     width: 50px;
     background-color: blue;
@@ -82,5 +82,14 @@ p {
     font-size: 30px;
     text-decoration: underline;
     color: brown;
+    background-color: darkorange;
 
+}
+.article{
+    font-size:40px;
+    text-decoration: none;
+}
+.article:hover{
+    background-color: aqua;
+    text-decoration: underline;
 }
